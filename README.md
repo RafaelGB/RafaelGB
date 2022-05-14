@@ -1,4 +1,6 @@
-Software engineer. Knowledge and Project Management (KPM) enthusiast 
+Software engineer. Knowledge and Project Management (KPM) enthusiast
+
+![Visitor count](https://shields-io-visitor-counter.herokuapp.com/badge?page=RafaelGB)
 
 [![Rafael's GitHub stats](https://github-readme-stats.vercel.app/api?username=RafaelGB)](https://github.com/RafaelGB)
 
