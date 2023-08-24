@@ -14,5 +14,6 @@ One area that particularly excites me is personal knowledge management and the c
 The current project I'm focused on
 
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=RafaelGB&repo=obsidian-bd-folder)](https://github.com/RafaelGB/obsidian-bd-folder)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=RafaelGB&repo=Obsidian-ZettlelFlow)](https://github.com/RafaelGB/Obsidian-ZettlelFlow)
 
 I hope you find my projects and contributions helpful and informative. If you have any questions or would like to collaborate, don't hesitate to reach out. I am always open to new opportunities and challenges.
