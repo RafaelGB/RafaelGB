@@ -1,19 +1,50 @@
-Hello and welcome to my GitHub profile! 
-I am a backend developer with expertise in both Python and Java. With years of experience in building robust and scalable backend systems, I have a strong foundation in a variety of technologies and methodologies. In addition to my backend capabilities, I also have an interest in front end development and am always looking for ways to expand my skillset.
+<div align="center">
 
-[![Visitor count](https://shields-io-visitor-counter.herokuapp.com/badge?page=RafaelGB)](https://github.com/RafaelGB)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/header-dark.svg">
+  <img src="./assets/header-light.svg" width="900" alt="Rafael Gómez Bermejo, backend engineer in Madrid">
+</picture>
 
-[![Rafael's GitHub stats](https://github-readme-stats.vercel.app/api?username=RafaelGB)](https://github.com/RafaelGB)
+I build backend systems in **Java** and spend a lot of time on **AWS**, writing Lambdas in TypeScript and Python<br>
+and running workloads on **Kubernetes**. Outside work I build tools that help me think and work better.
 
-One area that particularly excites me is personal knowledge management and the creation of tools to help individuals better organize, understand, and make use of their own information. I believe that having a strong system for managing our own knowledge is essential for personal growth and productivity.
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/divider-dark.svg">
+  <img src="./assets/divider-light.svg" width="900" alt="">
+</picture>
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=RafaelGB&layout=compact)](https://github.com/RafaelGB)
+### How I work
 
----
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/loop-dark.svg">
+  <img src="./assets/loop-light.svg" width="900" alt="Spec-Driven Development loop: specify, plan, tasks, implement, then verify and loop again">
+</picture>
 
-The current project I'm focused on
+**Spec-Driven Development** and **loop engineering**: AI-in-the-loop workflows where the spec is the source of truth<br>
+and verification decides when each step is done. I follow AI closely and keep what lasts.
 
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=RafaelGB&repo=obsidian-bd-folder)](https://github.com/RafaelGB/obsidian-bd-folder)
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=RafaelGB&repo=Obsidian-ZettlelFlow)](https://github.com/RafaelGB/Obsidian-ZettlelFlow)
+### Projects
 
-I hope you find my projects and contributions helpful and informative. If you have any questions or would like to collaborate, don't hesitate to reach out. I am always open to new opportunities and challenges.
+My main project is **ZettelFlow**, an Obsidian plugin that turns a canvas into a note-creation workflow and the vault into something you can think with.<br>
+Before it, **DB Folder**, a database view for Obsidian notes (1.4k ★, now archived).
+
+<a href="https://github.com/RafaelGB/Obsidian-ZettelFlow"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/card-zettelflow-dark.svg"><img src="./assets/card-zettelflow-light.svg" width="440" alt="Obsidian-ZettelFlow"></picture></a>
+<a href="https://github.com/RafaelGB/obsidian-db-folder"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/card-dbfolder-dark.svg"><img src="./assets/card-dbfolder-light.svg" width="440" alt="obsidian-db-folder"></picture></a>
+
+<sub>ZettelFlow docs: <a href="https://rafaelgb.github.io/Obsidian-ZettelFlow/">rafaelgb.github.io/Obsidian-ZettelFlow</a></sub>
+
+### Stack
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=java,ts,py,aws,kubernetes,docker,react,nodejs&theme=dark">
+  <img src="https://skillicons.dev/icons?i=java,ts,py,aws,kubernetes,docker,react,nodejs&theme=light" height="40" alt="Java, TypeScript, Python, AWS, Kubernetes, Docker, React, Node.js">
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/divider-dark.svg">
+  <img src="./assets/divider-light.svg" width="900" alt="">
+</picture>
+
+<sub><a href="https://www.linkedin.com/in/rafael-gomez-bermejo/">LinkedIn</a> · <a href="https://github.com/RafaelGB">GitHub</a></sub>
+
+</div>

@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="240" viewBox="0 0 900 240" role="img" aria-label="Spec-driven loop: specify, plan, tasks, implement, then verify and loop back">
+<style>
+  .box { fill: #f6f8fa; stroke: #d0d7de; }
+  .hl { fill: none; stroke: #6e56cf; stroke-width: 1.5; opacity: 0; animation: hl 8s ease infinite; }
+  .hl.first { opacity: 1; }
+  .num { font: 500 11px ui-monospace, 'SF Mono', 'Cascadia Code', Menlo, Consolas, 'Liberation Mono', monospace; letter-spacing: 1.5px; fill: #6e56cf; }
+  .title { font: 600 17px system-ui, -apple-system, 'Segoe UI', 'Inter', Roboto, 'Helvetica Neue', Arial, sans-serif; fill: #1f2328; }
+  .cap { font: 400 12.5px system-ui, -apple-system, 'Segoe UI', 'Inter', Roboto, 'Helvetica Neue', Arial, sans-serif; fill: #656d76; }
+  .arrow { stroke: #656d76; stroke-opacity: .6; stroke-width: 1.2; fill: none; }
+  .flow { stroke: #6e56cf; stroke-width: 1.4; fill: none; stroke-dasharray: 3 6; animation: flow 1.2s linear infinite; }
+  .back { font: 500 11.5px ui-monospace, 'SF Mono', 'Cascadia Code', Menlo, Consolas, 'Liberation Mono', monospace; letter-spacing: 1px; fill: #656d76; }
+  .head { fill: #656d76; fill-opacity: .6; }
+  .headA { fill: #6e56cf; }
+  @keyframes hl { 0% { opacity: 0; } 4%, 22% { opacity: 1; } 27%, 100% { opacity: 0; } }
+  @keyframes flow { to { stroke-dashoffset: -9; } }
+  @media (prefers-reduced-motion: reduce) { *, *::before, *::after { animation: none !important; } .motion { display: none; } }
+</style>
+<g>
+  <rect class="box" x="47" y="52" width="176" height="64" rx="12"/>
+  <rect class="hl first" x="47" y="52" width="176" height="64" rx="12" style="animation-delay:0s"/>
+  <text class="num" x="65" y="76">01</text>
+  <text class="title" x="65" y="99">Specify</text>
+  <text class="cap" x="135" y="140" text-anchor="middle">intent, written down</text>
+</g>
+<g>
+  <rect class="box" x="257" y="52" width="176" height="64" rx="12"/>
+  <rect class="hl" x="257" y="52" width="176" height="64" rx="12" style="animation-delay:2s"/>
+  <text class="num" x="275" y="76">02</text>
+  <text class="title" x="275" y="99">Plan</text>
+  <text class="cap" x="345" y="140" text-anchor="middle">approach · risks</text>
+</g>
+<g>
+  <rect class="box" x="467" y="52" width="176" height="64" rx="12"/>
+  <rect class="hl" x="467" y="52" width="176" height="64" rx="12" style="animation-delay:4s"/>
+  <text class="num" x="485" y="76">03</text>
+  <text class="title" x="485" y="99">Tasks</text>
+  <text class="cap" x="555" y="140" text-anchor="middle">each with its failing test</text>
+</g>
+<g>
+  <rect class="box" x="677" y="52" width="176" height="64" rx="12"/>
+  <rect class="hl" x="677" y="52" width="176" height="64" rx="12" style="animation-delay:6s"/>
+  <text class="num" x="695" y="76">04</text>
+  <text class="title" x="695" y="99">Implement</text>
+  <text class="cap" x="765" y="140" text-anchor="middle">red → green → verify</text>
+</g>
+<line class="arrow" x1="229" y1="84" x2="249" y2="84"/><path class="head" d="M250 80 L256 84 L250 88 Z"/>
+<line class="arrow" x1="439" y1="84" x2="459" y2="84"/><path class="head" d="M460 80 L466 84 L460 88 Z"/>
+<line class="arrow" x1="649" y1="84" x2="669" y2="84"/><path class="head" d="M670 80 L676 84 L670 88 Z"/>
+<path class="arrow" d="M765 160 Q765 196 725 196 L175 196 Q135 196 135 160" stroke-opacity=".25"/>
+<path class="flow" d="M765 160 Q765 196 725 196 L175 196 Q135 196 135 160"/>
+<path class="headA" d="M130 162 L135 154 L140 162 Z"/>
+<text class="back" x="450" y="224" text-anchor="middle">verify · review · loop again</text>
+</svg>
